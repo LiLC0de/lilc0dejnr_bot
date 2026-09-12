@@ -10,7 +10,7 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
 from config import BOT_TOKEN
-from handlers import start, help, weather, crypto, ai, stats
+from handlers import start, help, weather, crypto, ai, stats, inline
 from database.database import init_db
 from utils.logger import setup_logger
 
@@ -39,6 +39,7 @@ async def main():
     dp.include_router(crypto.router)
     dp.include_router(ai.router)
     dp.include_router(stats.router)
+    dp.include_router(inline.router)  # Inline mode
     
     logger.info("Бот запущен")
     
