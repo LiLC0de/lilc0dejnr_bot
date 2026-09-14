@@ -1,13 +1,13 @@
 # Основные зависимости
 aiogram==3.4.1
-python-dotenv==1.0.1
+python-dotenv==1.2.2
 
 # База данных
 sqlalchemy==2.0.25
 aiosqlite==0.19.0
 
 # API сервисы
-aiohttp==3.9.1
+aiohttp==3.14.3
 httpx==0.26.0
 
 # AI интеграция
