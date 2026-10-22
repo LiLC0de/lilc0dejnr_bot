@@ -112,4 +112,4 @@ MIT License
 
 ## 👨‍💻 Автор
 
-LiL C. — [GitHub](https://github.com/LiLC0de) | [Telegram](https://t.me/lilc0d3)
+LiL C. — [GitHub](https://github.com/LiLC0de) | [Telegram](https://t.me/l1lc0)
